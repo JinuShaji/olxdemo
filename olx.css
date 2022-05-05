@@ -1,0 +1,334 @@
+body{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+.navBar{
+   
+    top: 0;
+    position: fixed;
+    background-color:ghostwhite;
+    width: 100%;
+    height: 70px;
+   
+    
+}
+.logoLeft{
+    margin-left: 25px;
+    height: 50px;
+    left: 20px;
+    position: fixed;
+    margin-top: 10px;
+   
+   
+}
+.select{
+    left: 100px;
+    height:50px;
+    width: 270px;
+    position: fixed;
+    margin-top: 10px;
+    border-color:black;
+    border-width: 2px;
+}
+.search{
+    left: 380px;
+    height:44px;
+    width: 525px;
+    position: fixed;
+    margin-top: 10px;
+    border-color:black;
+    border-width: 2px;
+    font-size: 16px;
+}
+.search:hover{
+    border-color:cyan;
+   
+}
+.searc-btn{
+    background-image: url(https://th.bing.com/th/id/R.75a43eae9bee179ac65761075f857538?rik=ymf1XBXU7Adbpg&riu=http%3a%2f%2fwww.clker.com%2fcliparts%2fP%2fm%2fu%2fm%2fl%2f0%2fsearch-icon-marine-hi.png&ehk=k%2fkscNkZFNKzDdPdg4BFD%2f1NVC3UTWPW4oxVx5ctOnk%3d&risl=&pid=ImgRaw&r=0);
+    height: 50px;
+    width:50px;
+    background-color: darkslategrey;
+    margin-left: 910px;
+    margin-top: 10px;
+}
+.language{
+    padding: 10px;
+    height: 50px;
+    width: 110px;
+    right: 50px;
+    margin-top: 6px;
+    margin-right: 170px;
+  position: fixed;
+  border: none;
+  background-color:ghostwhite;
+  font-size: 15px;
+  font-weight: 700;
+    
+}
+.login-button{
+    padding: 10px;
+    height: 50px;
+    width: 100px;
+    right: 5px;
+    margin-top: 6px;
+    margin-right: 120px;
+  position: fixed;
+  border: none;
+  background-color:ghostwhite;
+  font-size: 15px;
+  font-weight: 700;
+}
+.sell-button{
+    padding: 10px;
+    height: 50px;
+    width: 100px;
+    right: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+  position: fixed;
+  border-radius: 100px;
+  border-width: 7px;
+  border-top-color: aqua;
+  border-left-color: yellow;
+  border-bottom-color: blue;
+  border-right-color: blue;
+  background-color: white;
+  font-size: 15px;
+  font-weight: 700;
+  box-shadow: -5px 5px 20px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -3px 5px 25px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -13px 9px 27px -2px rgba(0, 0, 0, 0.75);
+ 
+}
+
+.details{
+    margin-top: 70px;
+    height: 20px;
+    background-color: white;
+    width: 100%;
+   
+}
+.catagory{
+    margin-left: 38px;
+    border: none;
+    background-color: white;
+    font-weight: 700;
+    height: 40px;
+}
+.car{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+.Motorcycles{
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+}
+.banner{
+    
+    left: 10px;
+    height: 135px;
+    background-image: url(https://statics.olx.in/olxin/banners/hero_bg_in@1x.png);
+    background-size: cover;
+}
+.description{
+    color: white;
+    font-weight: 700;
+    margin-left: 675px;
+}
+.main{
+    display: flex;
+    margin-left: 675px;
+    
+}
+.button1{
+    border-radius: 5px;
+    background-color: white;
+    height: 40px;
+    width: 90px;
+    font-weight: 700;
+    border: none;
+   
+   
+}
+.button2{
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: white;
+    height: 40px;
+    width: 90px;
+    font-weight: 700;
+    border: none;
+   
+   
+}
+.add{
+    height: 400px;
+    width: 100%;
+}
+.add-car{
+    margin-top: 30px;
+    height: 300px;
+    width: 700px;
+    margin-left: 300px;
+}
+.container{
+    display: flex;
+    height: 450px;
+    background-color:#ebeeef;
+    margin-left: 20px;
+    margin-right: 60px;
+    border-radius: 5px;
+    width: 1300px;
+    justify-content: center;
+    
+   
+}
+.item1{
+    
+    border-radius: 5px;
+    margin-top: 50px;
+    background-color:white;
+    border-width: 10px;
+    height: 390px;
+    width: 30%;
+    border-width: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.innerBox{
+    background-color: white ;
+    border: 5px solid yellow;
+    height: 39%;
+    margin-top:8px;
+    width: 300px;
+    border-left-color: yellow;
+    border-right-color: white;
+    border-top-color: white;
+    border-bottom-color: white;
+}
+.fetured{
+    width: 25%;
+    background-color: rgba(236, 233, 20, 0.918);
+    height: 18px;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.product{
+    margin-left: 60px;
+    width: 150px;
+    height: 190px;
+}
+.price{
+    margin-left: 10px;
+    font-weight: 900;
+}
+.khm{
+    margin-top: 0;
+    margin-left: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+.discriptionCar{
+    margin-left: 10px;
+    color: darkgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title{
+    background-color: black;
+    height: 10px;
+    width: 700px;
+}
+.moreCar{
+    background-color:#ebeeef;
+    background-color:#ebeeef;
+    margin-left: 20px;
+    margin-right: 60px;
+    border-radius: 5px;
+    width: 1300px;
+}
+.more{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.fresh{
+    margin-left: 30px;
+ 5   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.moreButton{
+    margin-top: 50px;
+    width: 90px;
+    height: 40px;
+    border-width: 2px;
+    border-color: black;
+    align-items: center;
+    margin-left: 50%;
+    background-color: white;
+}
+
+.bottamAdd{
+    margin-top: 30px;
+    height: 300px;
+    width: 1200px;
+    background-color: black;
+    margin-left: 80px;
+}
+.bottamAddpic{
+   
+    height: 300px;
+    width: 1200px;
+
+   
+}
+.add2{
+    margin-top: 30px;
+    height: 190px;
+    width: 100%;
+    background-color: black;
+    background-image: url(https://statics.olx.in/external/base/img/phone-app.png);
+    background-size: cover;
+ 
+}
+.add2pic{
+    
+    height: 190px;
+    width: 100%;
+    background-color: black;
+}
+.tryolx{
+    color: darkslategray;
+    font-size: 40px;
+    margin-left: 500px;
+}
+.try2{
+    color: darkslategray;
+    margin-left: 500px;
+}
+.footer{
+    display: flex;
+    height: 200px;
+   
+}
+.div1{
+    background-color:#ebeeef;
+    width: 25%;
+    height: 200px;
+}
+.POPULAR{
+    margin-left: 50PX;
+}
+li{
+    margin-left: 50px;
+}
+.lastDiv{
+    height: 100px;
+    width: 100%;
+    background-color:darkslategrey;
+}
